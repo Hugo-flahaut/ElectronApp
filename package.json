@@ -1,15 +1,21 @@
 {
-  "name": "ElectronApp",
+  "name": "electron-app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Hugo Flahaut",
+  "license": "CC0-1.0",
   "devDependencies": {
-    "electron-prebuilt": "^1.4.13"
+    "electron": "^12.0.5"
   }
 }
